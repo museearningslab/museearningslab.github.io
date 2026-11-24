@@ -34,3 +34,4 @@
 - [実験記録 #002: サイトを開設した](https://genkaigyantyu.github.io/exp-002.html): Launching the site for free on GitHub Pages and the two-layer site strategy.
 - [実験記録 #003: ASP登録を進めた1日](https://genkaigyantyu.github.io/exp-003.html): A day of affiliate network registrations and site approvals, revenue still ¥0.
 - [大学生の節約・金策で本当に使っている考え方](https://genkaigyantyu.github.io/student-money.html): A student's honest framework for cutting fixed costs, systematizing food spending, and spotting money-making scams.
+- https://genkaigyantyu.github.io/overseas-esim-guide.html — 海外旅行向けeSIM5サービスの比較と選び方、航空券・ホテル・ツアーの予約サイトまとめ（日本語）
