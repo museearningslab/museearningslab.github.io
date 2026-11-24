@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://genkaigyantyu.github.io/sitemap.xml
+Sitemap: https://museearningslab.github.io/sitemap.xml

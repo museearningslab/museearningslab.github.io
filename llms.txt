@@ -4,34 +4,34 @@
 
 ## Tools
 
-- [Japan Rail Pass Break-Even Calculator](https://genkaigyantyu.github.io/jr-pass-calculator.html): Interactive calculator that adds up your long-distance JR legs and compares the total with the ¥50,000 7-day Japan Rail Pass price (online price from October 1, 2026).
+- [Japan Rail Pass Break-Even Calculator](https://museearningslab.github.io/jr-pass-calculator.html): Interactive calculator that adds up your long-distance JR legs and compares the total with the ¥50,000 7-day Japan Rail Pass price (online price from October 1, 2026).
 
 ## Guides for visitors to Japan (English)
 
-- [Japan Tourist Fees 2026–2027: Every New Charge in One Table](https://genkaigyantyu.github.io/japan-tourist-fees-2027.html): Every confirmed 2026–2027 charge change in one table — departure tax ¥3,000, Kyoto accommodation tax cap ¥10,000, JR Pass two-tier pricing, refund-based tax-free shopping, and the JESTA scam warning.
-- [Is the Japan Rail Pass Worth It in 2027? 3 Itineraries Priced Out](https://genkaigyantyu.github.io/jr-pass-worth-it.html): Break-even analysis of the ¥50,000 7-day JR Pass across three model itineraries, with a 2-minute decision rule.
-- [eSIM vs Pocket WiFi vs Roaming in Japan: Real Costs Compared](https://genkaigyantyu.github.io/esim-vs-pocket-wifi.html): Method comparison of the three ways to stay connected in Japan, with per-person cost math by group size.
-- [Best eSIM for Japan Travel: What to Check Before You Buy](https://genkaigyantyu.github.io/esim-japan-guide.html): The specification checklist (data, validity, tethering, network, refunds) that decides whether any Japan eSIM plan is right for your trip.
-- [You Do NOT Need JESTA in 2027 — Japan Entry Checklist (Scam Warning)](https://genkaigyantyu.github.io/jesta-checklist.html): JESTA is not required until fiscal 2028; how the application scams work and what you actually need to enter Japan in 2027.
-- [How Much Does a Trip to Japan Cost? A Realistic Budget Breakdown](https://genkaigyantyu.github.io/japan-travel-budget.html): Japan trip budgets broken down by lodging, food, transport, and connectivity, with per-day ranges by travel style.
-- [Japan Trip Checklist: 15 Things to Prepare Before You Go](https://genkaigyantyu.github.io/japan-travel-checklist.html): Fifteen pre-departure preparations — passport, visa, Visit Japan Web, connectivity, payment methods, medication, power.
+- [Japan Tourist Fees 2026–2027: Every New Charge in One Table](https://museearningslab.github.io/japan-tourist-fees-2027.html): Every confirmed 2026–2027 charge change in one table — departure tax ¥3,000, Kyoto accommodation tax cap ¥10,000, JR Pass two-tier pricing, refund-based tax-free shopping, and the JESTA scam warning.
+- [Is the Japan Rail Pass Worth It in 2027? 3 Itineraries Priced Out](https://museearningslab.github.io/jr-pass-worth-it.html): Break-even analysis of the ¥50,000 7-day JR Pass across three model itineraries, with a 2-minute decision rule.
+- [eSIM vs Pocket WiFi vs Roaming in Japan: Real Costs Compared](https://museearningslab.github.io/esim-vs-pocket-wifi.html): Method comparison of the three ways to stay connected in Japan, with per-person cost math by group size.
+- [Best eSIM for Japan Travel: What to Check Before You Buy](https://museearningslab.github.io/esim-japan-guide.html): The specification checklist (data, validity, tethering, network, refunds) that decides whether any Japan eSIM plan is right for your trip.
+- [You Do NOT Need JESTA in 2027 — Japan Entry Checklist (Scam Warning)](https://museearningslab.github.io/jesta-checklist.html): JESTA is not required until fiscal 2028; how the application scams work and what you actually need to enter Japan in 2027.
+- [How Much Does a Trip to Japan Cost? A Realistic Budget Breakdown](https://museearningslab.github.io/japan-travel-budget.html): Japan trip budgets broken down by lodging, food, transport, and connectivity, with per-day ranges by travel style.
+- [Japan Trip Checklist: 15 Things to Prepare Before You Go](https://museearningslab.github.io/japan-travel-checklist.html): Fifteen pre-departure preparations — passport, visa, Visit Japan Web, connectivity, payment methods, medication, power.
 
 ## Living in Japan (English)
 
-- [How to Open a Bank Account in Japan as a Foreigner](https://genkaigyantyu.github.io/japan-bank-account.html): Why Japan Post Bank (Yucho) is the realistic first account, the six-month non-resident rule, and a documents checklist.
-- [Long-Term SIM Options for Residents in Japan](https://genkaigyantyu.github.io/japan-sim-resident.html): How resident SIM contracts differ from tourist eSIMs (a real phone number), what you need to sign, and how to choose a budget MVNO plan.
+- [How to Open a Bank Account in Japan as a Foreigner](https://museearningslab.github.io/japan-bank-account.html): Why Japan Post Bank (Yucho) is the realistic first account, the six-month non-resident rule, and a documents checklist.
+- [Long-Term SIM Options for Residents in Japan](https://museearningslab.github.io/japan-sim-resident.html): How resident SIM contracts differ from tourist eSIMs (a real phone number), what you need to sign, and how to choose a budget MVNO plan.
 
 ## Learning Japanese (English)
 
-- [How to Choose a Japanese Tutor on italki — Advice From a Native Speaker](https://genkaigyantyu.github.io/italki-guide.html): How to pick an online Japanese tutor, from the perspective of a native speaker.
-- [How to Start Learning Japanese as a Complete Beginner](https://genkaigyantyu.github.io/japanese-study-guide.html): A beginner roadmap: kana, basics, input, conversation practice, then kanji.
-- [JLPT Levels Explained: Which Level Should You Aim For?](https://genkaigyantyu.github.io/jlpt-guide.html): The differences between JLPT N5 and N1 and how to choose a target level by goal.
-- [JLPT and CEFR: The New Level on Your Score Report, Explained](https://genkaigyantyu.github.io/jlpt-cefr-guide.html): Why JLPT score reports show a CEFR level from December 2025, and why B1 matters for the Specified Skilled Worker 2 route from April 2027.
+- [How to Choose a Japanese Tutor on italki — Advice From a Native Speaker](https://museearningslab.github.io/italki-guide.html): How to pick an online Japanese tutor, from the perspective of a native speaker.
+- [How to Start Learning Japanese as a Complete Beginner](https://museearningslab.github.io/japanese-study-guide.html): A beginner roadmap: kana, basics, input, conversation practice, then kanji.
+- [JLPT Levels Explained: Which Level Should You Aim For?](https://museearningslab.github.io/jlpt-guide.html): The differences between JLPT N5 and N1 and how to choose a target level by goal.
+- [JLPT and CEFR: The New Level on Your Score Report, Explained](https://museearningslab.github.io/jlpt-cefr-guide.html): Why JLPT score reports show a CEFR level from December 2025, and why B1 matters for the Specified Skilled Worker 2 route from April 2027.
 
 ## Experiment log (Japanese)
 
-- [実験記録 #001: AIに稼がせてみることにした](https://genkaigyantyu.github.io/exp-001.html): The experiment begins — five affiliate program registrations, starting from ¥0 in revenue.
-- [実験記録 #002: サイトを開設した](https://genkaigyantyu.github.io/exp-002.html): Launching the site for free on GitHub Pages and the two-layer site strategy.
-- [実験記録 #003: ASP登録を進めた1日](https://genkaigyantyu.github.io/exp-003.html): A day of affiliate network registrations and site approvals, revenue still ¥0.
-- [大学生の節約・金策で本当に使っている考え方](https://genkaigyantyu.github.io/student-money.html): A student's honest framework for cutting fixed costs, systematizing food spending, and spotting money-making scams.
-- https://genkaigyantyu.github.io/overseas-esim-guide.html — 海外旅行向けeSIM5サービスの比較と選び方、航空券・ホテル・ツアーの予約サイトまとめ（日本語）
+- [実験記録 #001: AIに稼がせてみることにした](https://museearningslab.github.io/exp-001.html): The experiment begins — five affiliate program registrations, starting from ¥0 in revenue.
+- [実験記録 #002: サイトを開設した](https://museearningslab.github.io/exp-002.html): Launching the site for free on GitHub Pages and the two-layer site strategy.
+- [実験記録 #003: ASP登録を進めた1日](https://museearningslab.github.io/exp-003.html): A day of affiliate network registrations and site approvals, revenue still ¥0.
+- [大学生の節約・金策で本当に使っている考え方](https://museearningslab.github.io/student-money.html): A student's honest framework for cutting fixed costs, systematizing food spending, and spotting money-making scams.
+- https://museearningslab.github.io/overseas-esim-guide.html — 海外旅行向けeSIM5サービスの比較と選び方、航空券・ホテル・ツアーの予約サイトまとめ（日本語）
